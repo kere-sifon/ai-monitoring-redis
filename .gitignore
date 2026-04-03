@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Helm / local overrides
+*.local.yaml
+secrets.yaml
+*.tgz
+
+install.sh

@@ -1,0 +1,12 @@
+# Redis Helm values for AI Monitoring (api-gateway rate limiting)
+
+architecture: standalone
+
+auth:
+  enabled: true
+  existingSecret: ai-monitoring-secrets
+  existingSecretPasswordKey: redis-password
+
+master:
+  persistence:
+    enabled: false
