@@ -14,7 +14,7 @@ Default branch: **develop**.
 ./deployments/install.sh
 ```
 
-## Deploy via PR comment
+## Deploy via PR comment.
 
 `/deploy aks`, `/deploy openshift`, or `/deploy oc` (same as OpenShift) on any PR.
 
